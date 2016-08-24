@@ -21,7 +21,7 @@ class BooleanValidator extends \yii\validators\BooleanValidator
     public function validateAttribute($model, $attribute)
     {
         if ($this->cast === true) {
-            settype($model->$attribute, 'boolean');
+            $model->$attribute = (bool) $model->$attribute;
 
             return null;
         }
