@@ -1,3 +1,6 @@
+## [We no longer maintain this repository]
+Use [AttributeTypecastBehavior](https://github.com/yiisoft/yii2/blob/d4df72a2a4d83ce2f4ae4fef4ca252834d6a319b/framework/behaviors/AttributeTypecastBehavior.php) instead AttributeTypeBehavior
+
 # yii2-validators
 Extended Yii2 Validators
 
